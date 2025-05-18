@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Responsive: 1 column on small screens */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
